@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <h1><title><center> Arogya Bot</center> </title></h1>
+        <link href="{{ url_for('static', filename='style1.css') }}" type="text/css" rel="stylesheet"> 
+    </head>
+    <style>
+        .hero-image {
+      background-image:url('{{ url_for('static', filename='pic5.jpg') }}');
+      background-color: #cccccc;
+      height: 500px;
+      width:1400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    </style>
+    <body>
+        <div class="logo">
+            <div>
+                <table>
+                    <tr>
+                        <td width="600px" style="font-size:50px;font-family:forte;"> 
+                        <img src="{{url_for('static', filename='doc21.jpg') }}" width="50" height="50">
+                        <font color="Orange">  AROGYA  </font>
+                        <font color="#000"> BOT </font></center>
+                        </td>
+                    </tr>
+                </table><br>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <font size="4px"> 
+                <li><a href="/"><b>Home</b></a></li>
+                <li><a href="/index2/"><b>Chat with me<b></a></li>
+                </font>
+            </ul>
+        </nav>
+        <div class="hero-image">
+            <div class="text1" >
+                I am an AI-driven Aarogya Bot <br> I will help you answer your basic<br> medical queries.<br> 
+                Amidst this pandemic, You can  <br> make use of my service.<br> Have a happy healthy life!!!! 
+            </div>
+        </div>	
+</html>
+
+
+  
